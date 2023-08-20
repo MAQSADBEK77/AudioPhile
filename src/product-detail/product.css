@@ -3,6 +3,8 @@
   margin: 0 auto;
 }
 .products .goback {
+  text-align: left !important;
+  display: flex;
   color: var(--black);
   font-size: 15px;
   font-style: normal;
@@ -71,7 +73,6 @@
 
 .cart-text {
   display: flex;
-
   justify-content: space-between;
   margin-bottom: 160px;
 }

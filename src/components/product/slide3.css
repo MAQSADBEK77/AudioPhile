@@ -5,6 +5,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 10px;
+  row-gap: 206px !important;
   text-transform: uppercase;
   row-gap: 68px;
   margin-bottom: 350px;

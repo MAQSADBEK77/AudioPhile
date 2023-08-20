@@ -113,9 +113,6 @@ header.menu-active {
 .menu-active a {
   transform: translateX(14%);
 }
-.menu-active .logo {
-  transform: translate(0);
-}
 .backdrop {
   position: fixed;
   top: 0;
@@ -136,29 +133,16 @@ header.menu-active {
   height: 2px;
   background-color: var(--white);
 }
-.header-active {
-  flex-direction: column;
-  display: flex !important;
-  z-index: 9;
-  position: fixed;
-  top: 50px;
-  right: 20px;
-}
-.header-active .menu {
-  flex-direction: column;
-  text-align: right;
-}
-.header-active .logo {
-  transform: translateX(-15%);
-}
 .menu-burger {
   display: none;
 }
 .menu-x .top {
   transition: all 0.4s;
-  transform: rotate(45deg) translateX(27%) translateY(50%);
+  width: 20px;
+  transform: rotate(45deg) translateX(25%) translateY(50%);
 }
 .menu-x .bott {
+  width: 20px;
   transition: all 0.4s;
   transform: rotate(-45deg) translateX(20%);
 }
@@ -204,25 +188,58 @@ header.menu-active {
   }
 }
 @media screen and (max-width: 768px) {
+  .container-black {
+    position: fixed;
+    z-index: 7;
+    left: 0;
+    background-color: var(--back-black);
+    height: 65px;
+  }
+.header-active .menu {
+  transition: all 0.4s;
+  flex-direction: column;
+  text-align: left;
+  position: fixed;
+  left: 35px;
+}
+.logo {
+  position: fixed;
+  top: 20px;
+  z-index: 8;
+  left: 100px;
+}
+.basket {
+  transition: all .4s;
+  position: fixed;
+  top: 20px;
+  right: 25px;
+}
+header {
+  z-index: 9;
+}
+header .menu {
+  position: fixed;
+  top: 60px;
+  left: 1300px;
+}
   .menu-burger {
     display: flex !important;
     z-index: 9;
     position: fixed;
-    right: 22px;
+    left: 32px;
     top: 20px;
     cursor: pointer;
     flex-direction: column;
-    gap: 10px;
-    width: 35px;
+    gap: 5px;
+    width: 16px;
   }
   header {
     position: fixed;
     top: 0;
-    right: -1440px !important;
   }
   .header-active {
     transition: all 0.3s;
-    right: 20px !important;
+    left: 20px !important;
   }
   .basket-active {
     position: fixed;
@@ -238,6 +255,9 @@ header.menu-active {
     position: fixed;
     left: 100px;
     top: 20px;
+  }
+  .goback {
+    margin: 33px 0 24px !important;
   }
 }
 
@@ -309,14 +329,33 @@ header.menu-active {
   }
 }
 @media screen and (max-width: 450px) {
+  .header-active {
+    flex-direction: column;
+    display: flex !important;
+    z-index: 9;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+  }
   .footer .menu {
+    transition: all 0.4s;
     flex-direction: column;
     text-align: center;
   }
   .zx9-left img {
-    transform: translate(-5%, 10%);
-  }
-  .zx9-left img {
     width: 250px;
+  }
+  .logo {
+    right: 1440px;
+  }
+  .logo-active {
+    right: 100px;
+  }
+  .basket {
+    right: 1440px;
+  }
+  .basket-active {
+    top: 20px;
+    right: -260px;
   }
 }
