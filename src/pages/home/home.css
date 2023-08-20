@@ -92,12 +92,12 @@ main {
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 24px;
-  width: 261px;
+  max-width: 261px;
   line-height: 58px;
 }
 .zx9 p {
   margin-bottom: 40px;
-  width: 349px;
+  max-width: 349px;
   font-size: 15px;
   font-weight: 500;
   line-height: 25px;

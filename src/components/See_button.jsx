@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom"
-
 function See_button({ to, clas }) {
-  return <Link   className={clas + ' see_button'} to={to}>See Product</Link>;
+  return (
+    <a className={clas + " see_button"} href={to}>
+      See Product
+    </a>
+  );
 }
-
-export default See_button
+export default See_button;
