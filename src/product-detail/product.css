@@ -117,19 +117,35 @@
 }
 
 .studio {
-  display: flex;
-  gap: 32px;
   margin-bottom: 160px;
 }
-.studio .studio-left {
-  max-width: 445px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+.item2 {
+  grid-area: menu;
+  margin-left: 20px;
 }
-.studio-left img {
-  width: 445px;
-  height: 280px;
+.item3 {
+  grid-area: main;
+}
+.item5 {
+  padding-top: 20px;
+  grid-area: footer;
+}
+.studio img {
+  width: 100%;
+  height: 100%;
+}
+.studio {
+  display: grid;
+  grid-template-areas:
+    "main main main main main menu"
+    "footer footer footer footer footer menu";
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 .product-you {
   text-align: center;
