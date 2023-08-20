@@ -1,0 +1,80 @@
+.card {
+  max-width: 1110px;
+  margin: 160px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 52px;
+  text-align: left;
+}
+.card-left {
+  width: 40.1%;
+  height: 560px;
+  border-radius: 8px;
+  background: var(--white05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-left img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-right {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.card span {
+  color: var(--pink);
+  margin-bottom: -16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10px;
+}
+.card h6 {
+  color: var(--black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.429px;
+}
+.card p {
+  color: var(--black);
+  opacity: 0.5;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 8px;
+  text-transform: none;
+}
+.card .card-see {
+  background: var(--pink);
+  color: var(--white);
+}
+.card .card-see:hover {
+  transition: all 0.5s;
+  background: #fbaf85;
+}
+@media screen and (max-width: 768px) {
+  .uniphones-top {
+    margin-bottom: -160px;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-left {
+    width: 100%;
+  }
+  .card-right {
+    width: 100%;
+    max-width: 100%;
+  }
+}

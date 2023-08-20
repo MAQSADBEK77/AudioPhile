@@ -1,0 +1,22 @@
+
+.uniphones-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--back-black);
+    padding-top: 98px;
+    padding-bottom: 97px;
+}
+.uniphones-top h1 {
+    color: var(--white);
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 110% */
+letter-spacing: 1.429px;
+text-transform: uppercase;
+}
+.uniphones .slide {
+    margin-bottom: 160px;
+}

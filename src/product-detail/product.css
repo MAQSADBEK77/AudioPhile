@@ -1,0 +1,144 @@
+.products {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.products .goback {
+  color: var(--black);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.5;
+  margin-top: 79px;
+}
+.products .goback:hover {
+  transition: all 0.5s;
+  text-decoration: underline;
+  opacity: 1;
+}
+.products .card {
+  margin-top: 56px;
+}
+.count-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.coin {
+  color: var(--black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+.count {
+  width: 89px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15.5px;
+  background: var(--white05);
+}
+.count h5 {
+  color: var(--black);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.count p {
+  margin-top: 8px;
+  cursor: pointer;
+  color: var(--black);
+  opacity: 0.25;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.card-see {
+  padding: 15px 34.5px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-text {
+  display: flex;
+
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.cart-text .text-left {
+  max-width: 635px;
+}
+.cart-text h2 {
+  color: var(--black);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.143px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.cart-text p {
+  color: var(--black);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.5;
+}
+.cart-text .text-right {
+  max-width: 350px;
+}
+.cart-text .x-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cart-text .x-text p {
+  display: flex;
+  column-gap: 24px;
+}
+.cart-text .x-text span {
+  color: #ff5e00;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.studio {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 160px;
+}
+.studio .studio-left {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.studio-left img {
+  width: 445px;
+  height: 280px;
+}
+.product-you {
+  text-align: center;
+  color: var(--black);
+  font-size: 32px;
+  margin-bottom: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: 1.143px;
+  text-transform: uppercase;
+}
