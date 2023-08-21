@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 function See_button({ to, clas }) {
   return (
-    <a className={clas + " see_button"} href={to}>
+    <Link className={clas + " see_button"} to={to}>
       See Product
-    </a>
+    </Link>
   );
 }
 export default See_button;
