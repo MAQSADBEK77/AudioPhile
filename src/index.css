@@ -110,6 +110,10 @@ header.menu-active {
   padding: 20px 20px;
   height: 100vh;
 }
+header {
+  height: 20px;
+  align-items: start;
+}
 .menu-active a {
   transform: translateX(14%);
 }
@@ -201,6 +205,7 @@ header.menu-active {
   text-align: left;
   position: fixed;
   left: 35px;
+  top: 90px;
 }
 .logo {
   position: fixed;
@@ -334,7 +339,6 @@ header .menu {
     display: flex !important;
     z-index: 9;
     position: fixed;
-    top: 50px;
     right: 20px;
   }
   .footer .menu {
@@ -345,17 +349,8 @@ header .menu {
   .zx9-left img {
     width: 250px;
   }
-  .logo {
-    right: 1440px;
-  }
-  .logo-active {
-    right: 100px;
-  }
-  .basket {
-    right: 1440px;
-  }
-  .basket-active {
-    top: 20px;
-    right: -260px;
-  }
+.basket-active {
+  position: fixed;
+  right: -280px;
+}
 }
