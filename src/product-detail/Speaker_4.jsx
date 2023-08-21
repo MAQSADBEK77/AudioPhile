@@ -19,7 +19,7 @@ function Speaker_4() {
         span="NEW PRODUCT"
         h6="ZX9 SPEAKER"
         p="Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups."
-        coin="$ 4,500"
+        coin="4.5"
       />
       <CardText
         p_left="Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices connected for easy switching. Improved bluetooth technology offers near lossless audio quality at up to 328ft (100m).

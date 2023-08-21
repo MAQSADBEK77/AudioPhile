@@ -20,7 +20,7 @@ function Airpods_6() {
         span="NEW PRODUCT"
         h6="YX1 WIRELESS EARPHONES"
         p="Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature."
-        coin="$ 599"
+        coin="599"
       />
       <CardText
         p_left="Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.

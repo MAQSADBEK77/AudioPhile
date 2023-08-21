@@ -18,7 +18,7 @@ function Headphones_1() {
         span="NEW PRODUCT"
         h6="XX99 Mark II Headphones"
         p="The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound."
-        coin="$ 2,999"
+        coin="2.999"
       />
       <CardText
         p_left="Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.

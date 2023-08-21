@@ -18,7 +18,7 @@ function Headphones_3() {
         span=""
         h6="XX59 Headphones"
         p="Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move."
-        coin="$ 899"
+        coin="899"
       />
       <CardText
         p_left="These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.

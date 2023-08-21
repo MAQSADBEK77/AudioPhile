@@ -20,7 +20,7 @@ import Headphones_3 from "./product-detail/Headphones_3";
 import Speaker_4 from "./product-detail/Speaker_4";
 import Speaker_5 from "./product-detail/Speaker_5";
 import Airpods_6 from "./product-detail/Airpods_6";
-function App() {
+function App() {  
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route element={<RootsLayout />}>

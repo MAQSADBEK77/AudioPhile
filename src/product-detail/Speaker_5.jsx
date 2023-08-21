@@ -19,7 +19,7 @@ function Speaker_4() {
         span=""
         h6="ZX7 SPEAKER"
         p="Stream high quality sound wirelessly with minimal to no loss. The ZX7 speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use."
-        coin="$ 3,500"
+        coin="3.5"
       />
       <CardText
         p_left="Reap the advantages of a flat diaphragm tweeter cone. This provides a fast response rate and excellent high frequencies that lower tiered bookshelf speakers cannot provide. The woofers are made from aluminum that produces a unique and clear sound. XLR inputs allow you to connect to a mixer for more advanced usage.
