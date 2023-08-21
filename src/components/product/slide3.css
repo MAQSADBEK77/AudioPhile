@@ -12,11 +12,11 @@
 }
 .card-slide_pro {
   width: 350px;
-  height: 318px !important;
+  height: 268px !important;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 165px;
+  padding-top: 58px;
   background-color: var(--white05);
   text-align: center;
 }
@@ -28,30 +28,12 @@
 .card-slide_pro h2 {
   color: var(--black);
   font-size: 24px;
-  transform: translateY(130px);
+  transform: translateY(90px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.714px;
   text-transform: uppercase;
-}
-.h2-1 {
-  transform: translateY(140px) !important;
-}
-.h2-2 {
-  transform: translateY(150px) !important;
-}
-.h2-3 {
-  transform: translateY(150px) !important;
-}
-.button-1 {
-  transform: translateY(135px) !important;
-}
-.button-2 {
-  transform: translateY(150px) !important;
-}
-.button-3 {
-  transform: translateY(147px) !important;
 }
 .card-slide_pro a {
   color: var(--white);
@@ -63,6 +45,7 @@
   text-transform: uppercase;
   background-color: var(--pink);
   margin-top: 32px;
+  transform: translateY(90px);
 }
 .card-slide_pro a:hover {
   background: #fbaf85;
