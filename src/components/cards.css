@@ -77,4 +77,7 @@
     width: 100%;
     max-width: 100%;
   }
+  .footer-bottom {
+    gap: 48px;
+  }
 }

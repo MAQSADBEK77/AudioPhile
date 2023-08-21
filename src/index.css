@@ -157,6 +157,9 @@ header {
   body {
     text-align: center;
   }
+  .cart-text {
+    text-align: left;
+  }
   .xx99 {
     background-position: top 1px center;
   }
@@ -191,7 +194,7 @@ header {
     align-items: end;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .container-black {
     position: fixed;
     z-index: 7;
@@ -199,34 +202,34 @@ header {
     background-color: var(--back-black);
     height: 65px;
   }
-.header-active .menu {
-  transition: all 0.4s;
-  flex-direction: column;
-  text-align: left;
-  position: fixed;
-  left: 35px;
-  top: 90px;
-}
-.logo {
-  position: fixed;
-  top: 20px;
-  z-index: 8;
-  left: 100px;
-}
-.basket {
-  transition: all .4s;
-  position: fixed;
-  top: 20px;
-  right: 25px;
-}
-header {
-  z-index: 9;
-}
-header .menu {
-  position: fixed;
-  top: 60px;
-  left: 1300px;
-}
+  .header-active .menu {
+    transition: all 0.4s;
+    flex-direction: column;
+    text-align: left;
+    position: fixed;
+    left: 35px;
+    top: 90px;
+  }
+  .logo {
+    position: fixed;
+    top: 20px;
+    z-index: 8;
+    left: 100px;
+  }
+  .basket {
+    transition: all 0.4s;
+    position: fixed;
+    top: 20px;
+    right: 25px;
+  }
+  header {
+    z-index: 9;
+  }
+  header .menu {
+    position: fixed;
+    top: 60px;
+    left: 1300px;
+  }
   .menu-burger {
     display: flex !important;
     z-index: 9;
@@ -261,8 +264,30 @@ header .menu {
     left: 100px;
     top: 20px;
   }
+
+  .cart-text {
+    flex-direction: column;
+    row-gap: 88px;
+  }
+  .text-left, .text-right {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
   .goback {
-    margin: 33px 0 24px !important;
+    margin: 106px 0 -24px !important;
+  }
+  .card {
+    margin-bottom: 88px;
+  }
+  .card .card-right {
+    text-align: left;
+  }
+  .count-block {
+    margin: 0 auto;
+  }
+  .count-block .count {
+    height: 48px;
   }
 }
 
@@ -349,8 +374,8 @@ header .menu {
   .zx9-left img {
     width: 250px;
   }
-.basket-active {
-  position: fixed;
-  right: -280px;
-}
+  .basket-active {
+    position: fixed;
+    right: -280px;
+  }
 }
