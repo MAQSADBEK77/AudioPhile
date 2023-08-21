@@ -12,7 +12,7 @@ function Header({ menu, setMenu }) {
         </div>
         <header className={menu && "header-active"}>
           <NavLink to="/" className={menu ? "logo logo-active" : "logo"}>
-            <svg onClick={() => setMenu(false)}>
+            <svg onClick={() => setMenu(false)}
               xmlns="http://www.w3.org/2000/svg" width="143" height="25"
               viewBox="0 0 143 25" fill="none">
               <path
