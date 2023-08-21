@@ -307,6 +307,10 @@ header {
   }
 }
 @media screen and (max-width: 660px) {
+  .xx99 {
+    background-position: top 100px left;
+    background-size: contain;
+  }
   .top-footer {
     margin: 0 auto;
     align-items: center;
