@@ -20,6 +20,7 @@ import Headphones_3 from "./product-detail/Headphones_3";
 import Speaker_4 from "./product-detail/Speaker_4";
 import Speaker_5 from "./product-detail/Speaker_5";
 import Airpods_6 from "./product-detail/Airpods_6";
+import NotFound from "./pages/NotFound";
 function App() {  
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -36,6 +37,7 @@ function App() {
         </Route>
         <Route path="speakers" element={<Speakers />} />
         <Route path="earphones" element={<EarPhones />} />
+        <Route path="*" element={<NotFound/>}/>
       </Route>
     )
   );

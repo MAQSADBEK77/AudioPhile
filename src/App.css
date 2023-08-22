@@ -1,0 +1,23 @@
+.not-found {
+  display: flex;
+  margin-top: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/pruduct4-3.png) no-repeat;
+  background-size: cover;
+  background-position: top -250px left;
+  height: 750px;
+}
+.not-found h1 {
+  font-size: 77px;
+  color: rgb(226, 43, 43);
+  text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .not-found {
+    background-position: top -20px left -45px;
+  }
+  .not-found h1 {
+    font-size: 44px;
+  }
+}
